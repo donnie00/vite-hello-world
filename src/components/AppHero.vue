@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-	<div>
+	<div class="body">
 		<h2>Questo è un banner hero della pagina.</h2>
 		<p>
 			Possiamo stampare quello che vogliamo all'interno della nostra sezione
@@ -16,13 +16,17 @@ export default {
 </template>
 
 <style>
+.body {
+	padding: 1rem 0;
+	background-color: beige;
+	border-radius: 1rem;
+}
+
 h2 {
 	color: red;
 }
 
 p {
-	text-decoration: underline;
-	text-decoration-color: blue;
+	color: grey;
 }
 </style>
-''

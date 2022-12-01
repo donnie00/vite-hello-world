@@ -8,6 +8,4 @@ export default {AppTitle, components: {AppTitle, AppHero}};
 <template>
 	<AppTitle></AppTitle>
 	<AppHero></AppHero>
-	<AppHero></AppHero>
-	<AppTitle></AppTitle>
 </template>
